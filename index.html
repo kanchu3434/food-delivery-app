@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Dilivery service</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- sidebar -->
-     <div class="sidebar">
+    <div class="sidebar">
         <h1 class="logo">FoodTime</h1>
 
         <div class="sidebar-menu">
@@ -21,28 +23,89 @@
         </div>
         <div class="sidebar-logout">
             <a href="#"><ion-icon name="log-out-outline"></ion-icon> Logout</a>
-        </div> 
+        </div>
 
-     </div>
+    </div>
 
-     <div class="main">
+    <div class="main">
         <div class="main-navbar">
-            <ion-icon class="menu-toggle"name="menu-outline"></ion-icon>
-               <div class="search">
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+            <div class="search">
                 <input type="text" placeholder="what you wnat to Eat">
                 <button class="search-btn">Search</button>
-               </div>
-               <div class="profile">
+            </div>
+            <div class="profile">
                 <a href="#" class="cart"><ion-icon name="cart-outline"></ion-icon> </a>
                 <a href="#" class="user"><ion-icon name="person-outline"></ion-icon> </a>
-               </div>
+            </div>
+        </div>
+        <div class="main-highlight">
+            <div class="main-header">
+                <h2 class="main-tittle">Recomandations</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="highlight-wrapper">
+                <div class="highlight-card">
+                    <img src="" class="highlight-img" alt="">
+                    <div class="highlight-desc">
+                        <h4>Fresh Salad</h4>
+                        <p>Rs 140</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img src="" class="highlight-img" alt="">
+                    <div class="highlight-desc">
+                        <h4>Coffe</h4>
+                        <p>Rs 45</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img src="" class="highlight-img" alt="">
+                    <div class="highlight-desc">
+                        <h4>Burger</h4>
+                        <p>Rs 90</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img src="" class="highlight-img" alt="">
+                    <div class="highlight-desc">
+                        <h4>Premium steak</h4>
+                        <p>Rs 80</p>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+
+        <div class="main-menus">
+            <div class="main-filter">
+                <div>
+                    <h2 class="main-tittle">Menu <br> Category</h2>
+                    <div class="main-arrow">
+                        <ion-icon class="back-menus" name="chevron-back-circle-outline"></ion-icon>
+                        <ion-icon class="next-menus" name="chevron-forward-circle-outline"></ion-icon>
+                    </div>
+
+                </div>
+                <div class="filter-wrapper">
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="restaurant-outline"></ion-icon>
+                        </div>
+                        <p>All Menus</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 
-    </body>
-     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 
 

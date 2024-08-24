@@ -92,3 +92,101 @@ body{
     border: none;
     border-radius: 20px;
 }
+.search-btn{
+    background-color: var(--secondaryColor);
+    color: var(--whiteColor);
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    cursor: pointer;
+}
+.search:hover{
+    box-shadow: rgba(149, 157,165,0.2)0px 8px 24px;
+}
+.search-btn:hover{
+    background-color: var(--primaryColor);
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.cart ,.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--whiteColor);
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--primaryColor);
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 50%;
+}
+.cart:hover,.user:hover{
+box-shadow:rgba(149, 157,165,0.2)0px 8px 24px; ;
+}
+.main-highlight{
+    margin: 3% 0;
+    padding: 2%;
+    border-radius: 8px;
+    background-color: var(--secondaryColor);
+}
+.main-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-tittle{
+    font-size: 20px;
+
+}
+.main-arrow{
+    font-size: 20px;
+}
+.back,.next{
+    cursor: pointer;
+}
+.back:hover,.next:hover{
+    background-color: var(--primaryColor);
+}
+.highlight-wrapper{
+    width: 100%;
+    display: flex;
+    padding: 1%;
+    border-radius: 8px;
+    gap: 1.5rem;
+    overflow-x: hidden;
+}
+.highlight-card{
+    display: flex;
+    flex-direction: row;
+    min-width: 200px;
+    width: 80%;
+    height: 100%;
+    background-color: var(--greyColor);
+    border-radius: 8px;
+    gap: 1rem;
+    padding: 1%;
+    cursor: pointer;
+}
+.highlight-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+}
+.highlight-desc{
+    color: var(--primaryColor);
+
+}
+
+.highlight-desc p{
+    color: var(--blackColor);
+    font-size: 13px;
+}
+.highlight-card:hover{
+    background-color: var(--whiteColor);
+}
